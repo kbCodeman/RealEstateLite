@@ -1,0 +1,192 @@
+/* Standard ele stylings */
+button {
+    margin-left: 1rem;
+}
+
+ul {
+    font-size: large;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-top: 1rem !important;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+/* Card stylings */
+.card {
+    padding: 0 1rem 0 1rem;
+
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: contain;
+    border: 5px inset ghostwhite;
+    margin-top: 1rem;
+}
+
+/* 'Properties' before search bar */
+#propertySearchLabel {
+    margin-right: 0.5rem;
+    font-size: large;
+}
+
+/* Agent card on property details page */
+.agent-card {
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+
+/* xs Breakpoint */
+@media (min-width: 0px) {
+    .agent-title {
+        font-size: 1.5rem;
+    }
+
+    .agent-name {
+        font-size: 1.25rem;
+    }
+
+    .rounded-circle {
+        border-radius: 0px !important;
+    }
+
+    .carousel-inner {
+        height: 300px !important;
+    }
+
+    .carousel-video {
+        padding-top: 0%;
+        padding-bottom: 0%
+    }
+
+    .nav-link {
+        padding-top: 10px;
+        font-size: larger;
+    }
+
+    #searchBarNav {
+        display: none !important;
+    }
+
+    #searchBar,
+    #searchNav {
+        display: inline-flex !important;
+    }
+
+    #propertySearchLabel {
+        color: black;
+        margin-left: 20px;
+    }
+}
+
+/* custome xs-s Breakpoint */
+@media (min-width: 450px) {
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+
+    .carousel-inner {
+        height: 350px !important;
+    }
+
+    .carousel-video {
+        padding-top: 4%;
+    }
+}
+
+/* md Breakpoint */
+@media (min-width: 768px) {
+    .agent-title {
+        font-size: 2.5rem;
+    }
+
+    .agent-name {
+        font-size: 1.5rem;
+    }
+
+    .rounded-circle {
+        max-width: 25%;
+        height: auto;
+    }
+
+    .carousel-inner {
+        height: 500px !important;
+    }
+
+    .carousel-video {
+        padding-top: 6%;
+    }
+}
+
+/* lg Breakpoint */
+@media (min-width: 992px) {
+    .agent-title {
+        font-size: 2.75rem;
+    }
+
+    .agent-name {
+        font-size: 1.8rem;
+    }
+
+    .carousel-inner {
+        height: 500px !important;
+    }
+
+    .nav-link {
+        padding: 0;
+        font-size: large;
+    }
+
+    #searchBarNav {
+        display: inline-flex !important;
+    }
+
+    #searchBar,
+    #searchNav {
+        display: none !important;
+    }
+
+    #propertySearchLabel {
+        color: white;
+    }
+}
+
+/* xl Breakpoint */
+@media (min-width: 1200px) {
+    .agent-title {
+        font-size: initial;
+    }
+
+    .agent-name {
+        font-size: initial;
+    }
+
+    .rounded-circle {
+        max-width: initial;
+        height: auto;
+    }
+
+    .carousel-video {
+        padding-top: 8%;
+    }
+}
+
+/* Get video responsive */
+.carousel-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 12%;
+    background-color: black;
+}
+
+/* Override style for larger navbar hamburger icon */
+.navbar-toggler-icon {
+    font-size: 2rem;
+}

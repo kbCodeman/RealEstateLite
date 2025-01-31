@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom CSS/JS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/javascript.js"></script>
+
+    <title>Home - Real Estate</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient  mb-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand my-auto" href="index.html">
+                    <b>R</b><em>e</em><b>al Estat</b><em>e</em>
+                </a>
+                <!-- Nav items -->
+                <ul class="navbar-nav w-100 my-auto" id="navbar">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item" id="searchNav">
+                        <a class="nav-link" href="#searchBar">Search</a>
+                    </li>
+                </ul>
+                <!-- Nav search bar-->
+                <form class="form-inline ml-auto d-flex" id="searchBarNav">
+                    <label class="form-label my-auto mr-sm-2" for="propertySearch"
+                        id="propertySearchLabel">Properties</label>
+                    <input class="form-control mr-sm-2" type="search" id="propertySearch" placeholder="Search" size="50"
+                        aria-label="Search">
+                    <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav><!-- End navigation-->
+
+    <!-- Content -->
+    <div class="container">
+        <!-- Search for small displays-->
+        <form class="form-inline" id="searchBar">
+            <label class="form-label my-auto mr-sm-2" for="propertySearch" id="propertySearchLabel">Properties</label>
+            <input class="form-control mr-sm-2" type="search" id="propertySearch" placeholder="Search" size="50"
+                aria-label="Search">
+            <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <!-- Featured houses-->
+        <div class="row p3">
+            <h3>Featured For Sale</h3>
+            <!-- Featured buy 1-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-1.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Offer guide $340,000</h4>
+                        <p class="card-text">92 Palace Way, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured buy 2-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-2.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Offers over $300,000</h4>
+                        <p class="card-text">1011 Brussells Road, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured buy 3-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-3.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Offer guide $540,000</h4>
+                        <p class="card-text">340 George Place, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured buy 4-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-4.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Price guide $420,000</h4>
+                        <p class="card-text">89 South Way, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End buy row-->
+        <hr>
+        <div class="row p-3">
+            <h3>Featured For Rent</h3>
+            <!-- Featured rent 1-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-5.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">$380 per week</h4>
+                        <p class="card-text">302/B Mildew Street, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured rent 2-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-6.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">$560 per week</h4>
+                        <p class="card-text">419 Growth Avenue, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured rent 3-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-7.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">$450 per week</h4>
+                        <p class="card-text">219 Farthing Court, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured rent 4-->
+            <div class="col-lg-12 col-xl-6 pb-3">
+                <div class="card">
+                    <img class="card-img-top" src="img/house-8.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">$410 per week</h4>
+                        <p class="card-text">71 Pleasure Avenue, Brisbane, QLD 4000</p>
+                        <a href="property.html" class="btn btn-dark">View</a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End rent row-->
+    </div><!-- End container-->
+</body>
+
+<footer>
+    Keith Bovingdon S12011280
+</footer>
+
+</html>
+<script>
+    // Focus search on searchNav on click
+    $(function () {
+        $('#searchNav').on("click", function () {
+            $('#searchBar').focus();
+        });
+    })
+</script>

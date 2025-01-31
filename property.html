@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom CSS/JS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/javascript.js"></script>
+    <!-- Local reference for tooltip -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!-- Font Awesome Icons for tooltip -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <title>92 Palace Way, Brisbane, QLD 4000 - Real Estate</title>
+
+    <style>
+        /* Indent price */
+        h5 {
+            margin-left: 5px;
+        }
+
+        /* For agent picture */
+        img {
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient  mb-3">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand my-auto" href="index.html">
+                    <b>R</b><em>e</em><b>al Estat</b><em>e</em>
+                </a>
+                <!-- Nav items -->
+                <ul class="navbar-nav w-100 my-auto" id="navbar">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item" id="searchNav">
+                        <a class="nav-link" href="index.html">Search</a>
+                    </li>
+                </ul>
+                <!-- Nav search bar-->
+                <form class="form-inline ml-auto d-flex" id="searchBarNav">
+                    <label class="form-label my-auto mr-sm-2" for="propertySearch"
+                        id="propertySearchLabel">Properties</label>
+                    <input class="form-control mr-sm-2" type="search" id="propertySearch" placeholder="Search" size="50"
+                        aria-label="Search">
+                    <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav><!-- End navigation-->
+
+    <!--Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a style="margin-left: 15px;" href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">92 Palace Way, Brisbane, QLD 4000</li>
+        </ol>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-8">
+                <!-- Carousel -->
+                <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-interval="false"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-video active">
+                            <iframe class="d-block w-100" height="315" src="https://www.youtube.com/embed/T3Oo7VaeW-E"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/house-1.jpg" alt="House exterior">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/kitchen-1.jpg" alt="House kitchen">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bedroom-1.jpg" alt="Bedroom 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bedroom-2.jpg" alt="Bedroom 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bedroom-3.jpg" alt="Bedroom 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bedroom-4.jpg" alt="Bedroom 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bathroom-1.jpg" alt="Bathroom 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bathroom-2.jpg" alt="Bathroom 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/bathroom-3.jpg" alt="Bathroom 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/carport-1.jpg" alt="Carport 1">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Property details -->
+            <div class="col-12 col-xl-4">
+                <div class="row">
+                    <h4 class="mt-3 mt-xl-0">92 Palace Way, Brisbane, QLD 4000</h4>
+                    <h5>Offer guide $340,000</h5>
+                    <div style="margin-left: 2px;">
+                        <ul>
+                            <li>4 Bedroom</li>
+                            <li>3 Bathroom</li>
+                            <li>2 Car Space</li>
+                        </ul>
+                        <p>This beautiful home located in Brisbane is the perfect home for first-home buyers. With
+                            modern architecture and a lovely amount of space, you can't go wrong with this home.
+                            Register your interest today and secure your home!</p>
+                    </div>
+                </div>
+                <!-- Agent details -->
+                <div class="row agent-card align-items-stretch bg-danger">
+                    <div class="col-8 col-xl-7 col-xxl-8">
+                        <div class="card text-white bg-danger border-0">
+                            <div class="row card-body">
+                                <a href="about.html" style="color: white; text-decoration: none;">
+                                    <h4 class="card-title agent-title">Your Agent:</h4>
+                                    <h5 class="card-text agent-name">Jody Li</h5>
+                                </a>
+                                <a href="about.html" class="btn btn-sm btn-dark my-2">View agent</a>
+                                <a class="btn btn-dark agent-register mb-0">Register Interest</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/agent-2.png" class="mx-auto d-block col-4 col-xl-5 col-xxl-4 my-4 rounded-circle">
+                </div> <!-- End agent details-->
+            </div> <!-- End property details-->
+        </div> <!-- End row-->
+
+        <!-- Register interest form-->
+        <div class="row">
+            <hr class="mt-4" style="display: none;">
+            <form class="collapse rounded my-2" id="hiddenForm">
+                <h2 class=""> Register your interest in this property</h2>
+                <div class="form-group">
+                    <label class="form-label" for="name">Your name: </label>
+                    <input class="form-control" name="name" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="phone">Your phone number:
+                        <span data-bs-toggle="tooltip" data-bs-placement="right"
+                            title="We may need to call you if we cannot reach you by email">
+                            <i class="fa fa-info-circle"></i>
+                        </span>
+                    </label>
+                    <input class="form-control" name="phone" type="tel">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Your email:
+                        <span class="required">*</span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="right"
+                            title="This will be our primary form of contact with you">
+                            <i class="fa fa-info-circle"></i>
+                        </span>
+                    </label>
+                    <input class="form-control" name="email" type="email">
+                </div>
+                <div class="mt-3">
+                    <input type="button" class="btn btn-danger" value="Submit" id="submit-form">
+                </div>
+            </form>
+        </div> <!-- End registration form -->
+        <!-- Alert for registration success -->
+        <div class="alert alert-success" role="alert" id="success-alert" style="display: none;">
+            Thanks
+            <span id="replace-name">NAME</span>, we will be in contact shortly.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div><!-- End container -->
+    <!-- Whitespace -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+<footer>
+    Keith Bovingdon S12011280
+</footer>
+
+</html>
+<script language="javascript" type="text/javascript">
+    $(function () {
+
+        // Stop playing video on carousel controls
+        $('.carousel-control-prev').click(function () {
+            $('iframe').attr('src', $('iframe').attr('src'));
+        });
+        $('.carousel-control-next').click(function () {
+            $('iframe').attr('src', $('iframe').attr('src'));
+        });
+
+        // Init tooltips
+        $('[data-bs-toggle="tooltip"]').tooltip();
+
+        // Expand form
+        $('.agent-register').click(function () {
+            $('#hiddenForm').collapse("show");
+            $('hr').css("display", "block");
+        })
+
+        // Form submit and reset
+        $('#submit-form').click(function () {
+            $('#success-alert').show();
+            $('#replace-name').replaceWith($('[name="name"]').val());
+            $('#hiddenForm').collapse("hide");
+            $('input[name="name"]').val("");
+            $('input[name="phone"]').val("");
+            $('input[name="email"]').val("");
+            $('hr').css("display", "none");
+        });
+    });
+</script>
